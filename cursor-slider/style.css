@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{background: #000;}
+#slider {
+    width: 1000px;
+    margin: 100px auto 0;
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+}
+
+#bar {
+    height: inherit;
+    width: 5px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    z-index: 1;
+    cursor: ew-resize;
+}
+#img1{
+    width: inherit;
+    position: absolute;
+    object-fit: contain;
+    filter: hue-rotate(45deg);
+}
+#img2 {
+    height: inherit;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+#img2 {
+    background-image: url("sample.jpg");
+    width: 0%;
+}
