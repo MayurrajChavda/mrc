@@ -1,0 +1,8 @@
+.myUl{
+    background-color: red;
+    border: 1px solid black;
+}
+.myLi{
+    display: inline;
+    margin-right: 20px;
+}
